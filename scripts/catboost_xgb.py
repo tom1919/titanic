@@ -96,7 +96,6 @@ print(time.time() - start) #  Run time: 29.436 seconds
 #%%
 # xgboost model CV accuracy and run time
 
-%%time
 start = time.time()
 
 xgb_mod = xgb.XGBClassifier()
