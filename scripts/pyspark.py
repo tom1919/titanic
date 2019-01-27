@@ -41,6 +41,7 @@ df.count()
 df.filter(df['Survived'] == 1).count()
 df.filter(df['Survived'] == 0).count()
 
+# treating Survived as numeric to get count of survived for each gender
 df.groupBy('sex').agg({'Survived' : 'sum'}).show()
 
 #%%
